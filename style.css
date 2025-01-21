@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav {
@@ -104,4 +107,65 @@
     display: flex;
     justify-content: center;
     margin: 20px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #d76576;
+    color: white; 
+    padding: 25px 30px;
+}
+
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.input-box textarea {
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus {
+    border-color: #d20054;
 }
