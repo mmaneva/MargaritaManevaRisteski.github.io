@@ -119,6 +119,12 @@
     padding: 25px 30px;
 }
 
+.about-me-box {
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #d76576;
+
+}
 
 .title {
     font-size: 25px;
