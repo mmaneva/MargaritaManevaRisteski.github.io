@@ -8,6 +8,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin: 5px;
+}
 .nav {
     position: fixed;
     background: #d76576;
