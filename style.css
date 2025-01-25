@@ -116,16 +116,6 @@
     margin: 20px;
 }
 
-.contact-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #d76576;
-    color: white; 
-    padding: 25px 30px;
-}
-
 .about-me {
     width: 100%;
     height: 80vh;
@@ -159,10 +149,20 @@
     padding: 25px;
 }
 
-.user-info {
+.contact-me {
+    background: #d76576;
+    color: white; 
+    padding: 25px 30px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.user-info {
     margin: 20px 0 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .input-box {
@@ -201,4 +201,54 @@
 
 .input-box input:focus {
     border-color: #d20054;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .img {
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .center {
+        top: 30%;
+        left: 5%;
+        transform: translate(0, 0);
+        text-align: left;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .role {
+        font-size: 20px;
+    }
+
+    .about-me-box {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .contact-me {
+        padding: 15px;
+    }
+
+    .user-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+    footer .footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
