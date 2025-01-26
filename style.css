@@ -12,15 +12,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 3px;
-    margin: 5px;
+    background: #d76576;
+    color: white;
 }
 .nav {
+    
     position: fixed;
     background: #d76576;
     width: 100%;
     padding: 10px 0;
     z-index: 10;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: white;
+    color: #d76576;
 }
 
 .menu {
@@ -118,7 +136,7 @@
 
 .about-me {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +146,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 800px;
+    width: 80%;
+    height: 50vh;
     border: 1px ;
     padding: 10px;
     box-shadow: 20px 20px 50px 15px #d76576;
