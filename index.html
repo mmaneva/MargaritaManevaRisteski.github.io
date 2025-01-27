@@ -17,6 +17,7 @@
         </nav>
 
         <a href="#" class="contact">Constact</a>
+        <button onclick="myFunction()">dark</button>
     </header>
     <div class="nav" hidden>
      <div class="menu">
@@ -30,14 +31,17 @@
         </ul>
      </div>
    </div>
-   <div class="img" ></div>
-   <div class="center">
-    <div class="name">Hello, I'm Margarita</div>
-    <div class="role">Full Stack Developer</div>
-    <div class="button" hidden>
-        <div class="cv">Download CV</div>
-    </div>
+   <div class="img" hidden></div>
+   <div class="banner">
+    <div class="center">
+        <div class="name">Hello, I'm Margarita</div>
+        <div class="role">Full Stack Developer</div>
+        <div class="button" hidden>
+            <div class="cv">Download CV</div>
+        </div>
+       </div>
    </div>
+   
    <div class="about-me">
     <div class="about-me-box">
         <h2 class="title">About me</h2>
@@ -46,7 +50,8 @@
             quickly and made me a mature team worker. I am able to work well
             both in a team environment as well as using own initiative. I am able
             to work well under pressure and adhere to strict deadlines.</p>
-       </div></div>
+       </div>
+    </div>
     
    <div hidden>
     <h2>Project</h2>
@@ -88,3 +93,11 @@
    </footer>
 </body>
 </html>
+
+
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
