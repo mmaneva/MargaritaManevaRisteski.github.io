@@ -14,15 +14,7 @@
     color: white;
   }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 3px;
-    background: #d76576;
-    color: white;
-}
+
 .nav {
     
     position: fixed;
@@ -108,8 +100,13 @@ nav a:hover {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: normal;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: end;
 }
 .center {
     position: absolute;
